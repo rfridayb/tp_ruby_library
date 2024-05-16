@@ -1,0 +1,34 @@
+<div class="fixed bottom-0 right-0 p-4">
+  <%= link_to "add", new_book_path, class: "rounded-full h-16 w-16 shadow-xl aspect-square bg-orange-400 text-white font-medium text-6xl material-symbols-outlined font-bold" %>
+</div>
+<div class="w-full">
+  <% if notice.present? %>
+    <p class="py-2 px-3 bg-green-50 mb-5 text-green-500 font-medium rounded-lg inline-block" id="notice"><%= notice %></p>
+  <% end %>
+  
+  <div class="flex justify-between items-center">
+    <h1 class="font-bold text-4xl">All the super incredible books in this crazy super cool library</h1>
+  </div>
+
+  <div class="my-8 flex justify-center">
+    <%= form_tag '/', method: :get do %>
+      <div class="flex items-center flex-nowrap h-8">
+      <%= text_field_tag :query, params[:query], placeholder: 'search', class: 'border-2 border-slate-100 py-2 px-2 rounded-l-lg' %>
+      <%= submit_tag 'search', class: "border-2 border-sky-400 bg-sky-400 text-white material-symbols-outlined p-2 rounded-r-lg" %>
+      </div>
+    <% end %>
+  </div>
+  
+  <div id="books" class="min-w-full grid grid-cols-3 gap-1 bg-slate-200 p-1">
+    <% @books.each do |book| %>
+      <div class="bg-white p-8 flex flex-col justify-between">
+        <div>
+          <%= render book %>
+        </div>
+        <p class="text-center">
+          <%= link_to "See more", book, class: "ml-2 rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
+        </p>
+      </div>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+admin:
+  username: admin
+  password_digest: $2y$10$J5NY36JGoIb/a9uxzGxhqeuI6lDXLQXunM98y7Skq.UT1QHfGZQAG 
+
+test:
+  username: test
+  password_digest: $2y$10$Ny7t9Q0h7iXXJVS0BZHXYeDgT3AIL9caR0qWUq1DZXNkn/bD1byEG

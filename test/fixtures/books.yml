@@ -1,0 +1,438 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+book0:
+    title: "Naturalis historia"
+    author: "Pliny the Elder"
+    publication_year: 1469
+book1:
+    title: "The Wind in the Willows"
+    author: "Kenneth Grahame"
+    publication_year: 1908
+book2:
+    title: "The Turn of the Screw"
+    author: "Henry James"
+    publication_year: 1898
+book3:
+    title: "History of the Decline and Fall of the Roman Empire Complete and Unabridged"
+    author: "Edward Gibbon"
+    publication_year: 1776
+book4:
+    title: "Taming of the Shrew"
+    author: "William Shakespeare"
+    publication_year: 1631
+book5:
+    title: "The Lord of the Rings"
+    author: "J.R.R. Tolkien"
+    publication_year: 1954
+book6:
+    title: "The Return of the Native"
+    author: "Thomas Hardy"
+    publication_year: 1878
+book7:
+    title: "The Story of Philosophy"
+    author: "Will Durant"
+    publication_year: 1926
+book8:
+    title: "The Lion
+    the Witch and the Wardrobe"
+    author: "C.S. Lewis"
+    publication_year: 1950
+book9:
+    title: "The alchemist
+    1612"
+    author: "Ben Jonson"
+    publication_year: 1612
+book10:
+    title: "The Prince and the Pauper"
+    author: "Mark Twain"
+    publication_year: 1881
+book11:
+    title: "The Call of the Wild"
+    author: "Jack London"
+    publication_year: 1903
+book12:
+    title: "Voyage au Centre de la Terre"
+    author: "Jules Verne"
+    publication_year: 1867
+book13:
+    title: "The Enduring Vision"
+    author: "Paul S. Boyer"
+    publication_year: 1987
+book14:
+    title: "On The Road"
+    author: "Jack Kerouac"
+    publication_year: 1957
+book15:
+    title: "The War of the Worlds"
+    author: "H. G. Wells"
+    publication_year: 1898
+book16:
+    title: "On the Beach."
+    author: "Nevil Shute"
+    publication_year: 1957
+book17:
+    title: "The Murder at the Vicarage"
+    author: "Agatha Christie"
+    publication_year: 1930
+book18:
+    title: "The Last of the Mohicans"
+    author: "James Fenimore Cooper"
+    publication_year: 1826
+book20:
+    title: "The First Men in the Moon"
+    author: "H. G. Wells"
+    publication_year: 1900
+book21:
+    title: "The life of Olaudah Equiano
+    or Gustavus Vassa
+    the African"
+    author: "Olaudah Equiano"
+    publication_year: 1789
+book22:
+    title: "The Curious Incident of the Dog in the Night-Time"
+    author: "Mark Haddon"
+    publication_year: 1950
+book23:
+    title: "The Hitch Hiker's Guide to the Galaxy"
+    author: "Douglas Adams"
+    publication_year: 1979
+book24:
+    title: "The Martian Chronicles"
+    author: "Ray Bradbury"
+    publication_year: 1950
+book25:
+    title: "The Return of the King"
+    author: "J.R.R. Tolkien"
+    publication_year: 1950
+book26:
+    title: "The food of the gods and how it came to earth"
+    author: "H. G. Wells"
+    publication_year: 1900
+book27:
+    title: "Записки изъ подполья"
+    author: "Фёдор Михайлович Достоевский"
+    publication_year: 1864
+book28:
+    title: "The Fellowship of the Ring"
+    author: "J.R.R. Tolkien"
+    publication_year: 1954
+book29:
+    title: "The Catcher in the Rye"
+    author: "J. D. Salinger"
+    publication_year: 1900
+book30:
+    title: "To the Lighthouse"
+    author: "Virginia Woolf"
+    publication_year: 1927
+book31:
+    title: "The Murders in the Rue Morgue"
+    author: "Edgar Allan Poe"
+    publication_year: 1895
+book32:
+    title: "The Wealth of Nations"
+    author: "Adam Smith"
+    publication_year: 1776
+book33:
+    title: "The Second World War"
+    author: "Winston S. Churchill"
+    publication_year: 1948
+book34:
+    title: "The Old Man and the Sea"
+    author: "Ernest Hemingway"
+    publication_year: 1952
+book35:
+    title: "Tender is the Night"
+    author: "F. Scott Fitzgerald"
+    publication_year: 1933
+book36:
+    title: "The Body in the Library"
+    author: "Agatha Christie"
+    publication_year: 1942
+book37:
+    title: "The Hound of the Baskervilles"
+    author: "Arthur Conan Doyle"
+    publication_year: 1900
+book38:
+    title: "Life on the Mississippi"
+    author: "Mark Twain"
+    publication_year: 1883
+book39:
+    title: "Far From the Madding Crowd"
+    author: "Thomas Hardy"
+    publication_year: 1874
+book40:
+    title: "The Silver Chair"
+    author: "C.S. Lewis"
+    publication_year: 1953
+book41:
+    title: "Chemistry"
+    author: "Theodore L. Brown"
+    publication_year: 1977
+book42:
+    title: "The Two Towers"
+    author: "J.R.R. Tolkien"
+    publication_year: 1954
+book43:
+    title: "The Twits"
+    author: "Roald Dahl"
+    publication_year: 1967
+book44:
+    title: "The Canterbury Tales"
+    author: "Geoffrey Chaucer"
+    publication_year: 1478
+book45:
+    title: "The Ugly Duckling"
+    author: "Hans Christian Andersen"
+    publication_year: 1851
+book46:
+    title: "The Jungle"
+    author: "Upton Sinclair"
+    publication_year: 1905
+book47:
+    title: "The Pearl"
+    author: "John Steinbeck"
+    publication_year: 1945
+book48:
+    title: "The Sign of Four"
+    author: "Arthur Conan Doyle"
+    publication_year: 1889
+book49:
+    title: "The Mystery of the Blue Train"
+    author: "Agatha Christie"
+    publication_year: 1928
+book50:
+    title: "Murder on the Links"
+    author: "Agatha Christie"
+    publication_year: 1923
+book51:
+    title: "Tempest"
+    author: "William Shakespeare"
+    publication_year: 1611
+book52:
+    title: "Der Zauberberg"
+    author: "Thomas Mann"
+    publication_year: 1924
+book53:
+    title: "The Godfather"
+    author: "Mario Puzo"
+    publication_year: 1969
+book54:
+    title: "The Moonstone"
+    author: "Wilkie Collins"
+    publication_year: 1868
+book55:
+    title: "The Silmarillion"
+    author: "J.R.R. Tolkien"
+    publication_year: 1977
+book56:
+    title: "The Giver"
+    author: "Lois Lowry"
+    publication_year: 1993
+book57:
+    title: "Le fantôme de l'opéra"
+    author: "Gaston Leroux"
+    publication_year: 1911
+book58:
+    title: "The Complete Sherlock Holmes [4 novels
+    56 stories]"
+    author: "Arthur Conan Doyle"
+    publication_year: 1900
+book59:
+    title: "When the Sleeper Awakes"
+    author: "H.G. Wells"
+    publication_year: 1899
+book60:
+    title: "Lord of Flies"
+    author: "William Golding"
+    publication_year: 1954
+book61:
+    title: "The Big Sleep"
+    author: "Raymond Chandler"
+    publication_year: 1939
+book62:
+    title: "The Witches"
+    author: "Roald Dahl"
+    publication_year: 1983
+book63:
+    title: "The Beautiful and Damned"
+    author: "F. Scott Fitzgerald"
+    publication_year: 1922
+book64:
+    title: "The Marvelous Land of Oz"
+    author: "L. Frank Baum"
+    publication_year: 1904
+book65:
+    title: "The Scarlet Letter"
+    author: "Nathaniel Hawthorne"
+    publication_year: 1850
+book66:
+    title: "Death in the Clouds"
+    author: "Agatha Christie"
+    publication_year: 1935
+book67:
+    title: "The Man in the Brown Suit"
+    author: "Agatha Christie"
+    publication_year: 1924
+book68:
+    title: "Works [37 plays
+    6 poems
+    sonnets]"
+    author: "William Shakespeare"
+    publication_year: 1730
+book69:
+    title: "Εὐθύφρων / Κρίτων / Φαίδων / Ἀπολογία Σωκράτους"
+    author: "Πλάτων"
+    publication_year: 1871
+book70:
+    title: "The Magician's Nephew"
+    author: "C.S. Lewis"
+    publication_year: 1955
+book71:
+    title: "The Last Battle"
+    author: "C.S. Lewis"
+    publication_year: 1956
+book72:
+    title: "The Castle of Otranto"
+    author: "Horace Walpole"
+    publication_year: 1764
+book73:
+    title: "The Invisible Man"
+    author: "H. G. Wells"
+    publication_year: 1897
+book74:
+    title: "Tess of the d'Urbervilles"
+    author: "Thomas Hardy"
+    publication_year: 1707
+book75:
+    title: "Le Morte d'Arthur"
+    author: "Thomas Malory"
+    publication_year: 1557
+book76:
+    title: "The Art of War"
+    author: "Sun Tzu"
+    publication_year: 1910
+book77:
+    title: "Winnie-the-Pooh"
+    author: "A. A. Milne"
+    publication_year: 1925
+book78:
+    title: "The Age of Innocence"
+    author: "Edith Wharton"
+    publication_year: 1920
+book79:
+    title: "La chute"
+    author: "Albert Camus"
+    publication_year: 1917
+book80:
+    title: "The Time Machine"
+    author: "H. G. Wells"
+    publication_year: 1895
+book81:
+    title: "Anne of the Island"
+    author: "Lucy Maud Montgomery"
+    publication_year: 1915
+book82:
+    title: "The House of Mirth"
+    author: "Edith Wharton"
+    publication_year: 1905
+book83:
+    title: "The Portrait Of A Lady"
+    author: "Luther T. Smith"
+    publication_year: 1881
+book84:
+    title: "The Night Before Christmas"
+    author: "Clement Clarke Moore"
+    publication_year: 1857
+book85:
+    title: "On the origin of species by means of natural selection"
+    author: "Charles Darwin"
+    publication_year: 1859
+book86:
+    title: "For Whom the Bell Tolls"
+    author: "Ernest Hemingway"
+    publication_year: 1940
+book87:
+    title: "The Secret Garden"
+    author: "Frances Hodgson Burnett"
+    publication_year: 1911
+book88:
+    title: "The Iron Heel"
+    author: "Jack London"
+    publication_year: 1907
+book89:
+    title: "Inferno"
+    author: "Dante Alighieri"
+    publication_year: 1782
+book90:
+    title: "The Good Earth"
+    author: "Pearl S. Buck"
+    publication_year: 1548
+book91:
+    title: "The Merchant of Venice"
+    author: "William Shakespeare"
+    publication_year: 1600
+book92:
+    title: "The Travels of Marco Polo"
+    author: "Marco Polo"
+    publication_year: 1818
+book93:
+    title: "Ὀδύσσεια"
+    author: "Όμηρος"
+    publication_year: 1488
+book94:
+    title: "The Awakening"
+    author: "Kate Chopin"
+    publication_year: 1899
+book95:
+    title: "The Voyage of the Dawn Treader"
+    author: "C.S. Lewis"
+    publication_year: 1952
+book96:
+    title: "The Hobbit"
+    author: "J.R.R. Tolkien"
+    publication_year: 1937
+book97:
+    title: "Narrative of the life of Frederick Douglass
+    an American slave"
+    author: "Frederick Douglass"
+    publication_year: 1845
+book98:
+    title: "Through the Looking-Glass"
+    author: "Lewis Carroll"
+    publication_year: 1871
+book99:
+    title: "The Prophet"
+    author: "Kahlil Gibran"
+    publication_year: 1900
+book100:
+    title: "Othello"
+    author: "William Shakespeare"
+    publication_year: 1622
+book101:
+    title: "Harry Potter and the Philosopher's Stone"
+    author: "J. K. Rowling"
+    publication_year: 1997
+book102:
+    title: "Harry Potter and the Order of the Phoenix"
+    author: "J. K. Rowling"
+    publication_year: 2003
+book103:
+    title: "Harry Potter and the Deathly Hallows"
+    author: "J. K. Rowling"
+    publication_year: 2007
+book104:
+    title: "Harry Potter and the Prisoner of Azkaban"
+    author: "J. K. Rowling"
+    publication_year: 1999
+book105:
+    title: "Harry Potter and the Chamber of Secrets"
+    author: "J. K. Rowling"
+    publication_year: 1998
+book106:
+    title: "Harry Potter and the Half-Blood Prince"
+    author: "J. K. Rowling"
+    publication_year: 2005
+book107:
+    title: "Harry Potter and the Goblet of Fire"
+    author: "J. K. Rowling"
+    publication_year: 1993

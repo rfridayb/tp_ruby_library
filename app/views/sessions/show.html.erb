@@ -1,0 +1,15 @@
+﻿<div class="mx-auto md:w-2/3 w-full flex">
+  <h1>Hello, <%= @current_user.username %> !</h1>
+
+  <div class="min-w-full">
+    <% @current_user.borrows.each do |borrow| %>
+      <div>
+        <p><%= borrow.book.title %></p>
+        <p>Borrowed at <%= borrow.started_at.strftime('%A, %b %d') %></p>
+        <% unless borrow.ended_at.nil? %>
+        <p>Returned at <%= borrow.ended_at.strftime('%A, %b %d') %></p>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+﻿<div class="mx-auto md:w-2/3 w-full">
+  <h1 class="text-2xl font-bold">Hello, <%= current_user.username %> !</h1>
+
+  <div class="min-w-full my-8">
+    <h2 class="text-xl font-medium mb-4">Book history</h2>
+    <% current_user.borrows.each do |borrow| %>
+      <div class="mb-4">
+        <p class="text-lg italic"><%= borrow.book.title %></p>
+        <p>Borrowed on <%= borrow.started_at.strftime('%A, %b %d') %></p>
+        <% unless borrow.ended_at.nil? %>
+          <p>Returned on <%= borrow.ended_at.strftime('%A, %b %d') %></p>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+</div>

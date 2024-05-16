@@ -1,0 +1,30 @@
+<%= link_to "arrow_back", books_path, class: "ml-2 rounded-lg p-2 hover:bg-gray-100 inline-block font-medium material-symbols-outlined" %>
+<div class="mx-auto md:w-2/3 w-full flex">
+  <div class="mx-auto">
+    <% if notice.present? %>
+      <p class="py-2 px-3 bg-green-50 mb-5 text-green-500 font-medium rounded-lg inline-block" id="notice"><%= notice %></p>
+    <% end %>
+
+    <div class="flex flex-nowrap items-center">
+      <%= link_to "edit", edit_book_path(@book), class: "rounded-lg h-6 w-6 hover:text-sky-500 inline-block material-symbols-outlined" %>
+      <%= button_to "delete", @book, method: :delete, class: "ml-4 rounded-lg h-6 w-6 hover:text-red-500 material-symbols-outlined" %>
+    </div>
+    <%= render @book %>
+
+    <% unless @borrow.nil? %>
+      <div class="mb-4 p-4 rounded-lg bg-sky-300 border-2 border-sky-500 leading-[1.5rem]">
+        <% if @borrow.ended_at.nil? %>
+          You borrowed this book on <%= @borrow.started_at.strftime('%A, %b %d') %>.<br>Do not forget to return it when you are done with it :)
+        <% else %>
+          You've already borrowed this book from <%= @borrow.started_at.strftime('%A, %b %d') %> to <%= @borrow.ended_at.strftime('%A, %b %d') %>
+        <% end %>
+      </div>
+    <% end %>
+    
+    <% if @book.borrowed? %>
+      <%= button_to "Return this book", {action:'return', id: @book.id, method: :post}, class: "bg-orange-400 hover:bg-orange-600 rounded-lg py-3 px-5 uppercase" %>
+    <% else %>
+      <%= button_to "Borrow this book", {action:'borrow', id: @book.id, method: :post}, class: "bg-orange-400 hover:bg-orange-600 rounded-lg py-3 px-5 uppercase" %>
+    <% end %>
+  </div>
+</div>

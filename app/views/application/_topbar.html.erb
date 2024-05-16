@@ -1,0 +1,14 @@
+﻿<header class="flex w-full flex-nowrap bg-sky-700 text-white px-4 h-16 items-center">
+  <div class="grow shrink-0">
+    <%= link_to 'My Crazy Super Cool Library', books_path, class: 'font-bold'%>
+  </div>
+  <nav class="flex flex-nowrap items-center">
+    <% if logged_in? %>
+      <%= link_to 'My Account', user_path(id: current_user.id), class: 'hover:text-slate-200' %>
+      <%= link_to 'logout', logout_path, class: 'hover:text-red-500 material-symbols-outlined ml-4' %>
+    <% else %>
+      <%= link_to 'Login', login_path, class: 'hover:text-slate-200' %>
+      <%= link_to 'Register', new_user_path, class: 'ml-4 hover:text-slate-200' %>
+    <% end %>
+  </nav>
+</header>
