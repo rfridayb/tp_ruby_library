@@ -12,7 +12,7 @@
     <%= render @book %>
 
     <% unless @borrow.nil? %>
-      <div class="mb-4 p-4 rounded-lg bg-sky-300 border-2 border-sky-500 leading-[1.5rem]">
+      <div class="mb-4 p-4 rounded-lg bg-sky-100 border-2 border-sky-300 leading-[1.5rem]">
         <% if @borrow.ended_at.nil? %>
           You borrowed this book on <%= @borrow.started_at.strftime('%A, %b %d') %>.<br>Do not forget to return it when you are done with it :)
         <% else %>
@@ -21,10 +21,12 @@
       </div>
     <% end %>
     
-    <% if @book.borrowed? %>
+    <% if @book.borrowed? && (!@borrow.nil? && @borrow.ended_at.nil?) %>
       <%= button_to "Return this book", {action:'return', id: @book.id, method: :post}, class: "bg-orange-400 hover:bg-orange-600 rounded-lg py-3 px-5 uppercase" %>
-    <% else %>
+    <% elsif !@book.borrowed?%>
       <%= button_to "Borrow this book", {action:'borrow', id: @book.id, method: :post}, class: "bg-orange-400 hover:bg-orange-600 rounded-lg py-3 px-5 uppercase" %>
+    <% else %>
+      <%= button_to "Unavailable", {action:'borrow', id: @book.id, method: :post}, disabled: true, class: "bg-slate-200 rounded-lg py-3 px-5 uppercase" %>
     <% end %>
   </div>
 </div>
